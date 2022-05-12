@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  redmine:
+    image: wso2/wso2am:4
+    restart: always
+    ports:
+      8280:8280
+      8243:8243
+      9443:9443
+  
